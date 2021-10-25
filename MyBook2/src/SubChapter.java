@@ -3,24 +3,27 @@ import java.util.List;
 
 public class SubChapter {
     public String name;
-    public List<String> paragraphs = new ArrayList<String>();
-    public List<String> images = new ArrayList<String>();
-    public List<String> tables = new ArrayList<String>();
+    public List<Paragraph> paragraphs = new ArrayList<Paragraph>();
+    public List<Image> images = new ArrayList<Image>();
+    public List<Table> tables = new ArrayList<Table>();
 
     public SubChapter(String name) {
         this.name = name;
     }
 
     public void createNewParagraph(String s) {
-        this.paragraphs.add(s);
+        Paragraph p = new Paragraph(s);
+        this.paragraphs.add(p);
     }
 
     public void createNewImage(String s) {
-        this.images.add(s);
+        Image i = new Image(s);
+        this.images.add(i);
     }
 
     public void createNewTable(String s) {
-        this.tables.add(s);
+        Table t = new Table(s);
+        this.tables.add(t);
     }
 
     @Override
