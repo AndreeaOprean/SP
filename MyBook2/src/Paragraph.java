@@ -1,12 +1,12 @@
 public class Paragraph {
-    public String name;
+    public String text;
 
-    public Paragraph(String name) {
-        this.name = name;
+    public Paragraph(String text) {
+        this.text = text;
     }
 
     @Override
     public String toString() {
-        return "Paragraph: " + this.name;
+        return "Paragraph: " + this.text;
     }
 }

@@ -1,12 +1,12 @@
 public class Table {
-    public String name;
+    public String title;
 
-    public Table(String name) {
-        this.name = name;
+    public Table(String title) {
+        this.title = title;
     }
 
     @Override
     public String toString() {
-        return "Table: " + this.name;
+        return "Table: " + this.title;
     }
 }

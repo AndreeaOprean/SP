@@ -1,12 +1,12 @@
 public class Image {
-    public String name;
+    public String imangeName;
 
     public Image(String name) {
-        this.name = name;
+        this.imangeName = name;
     }
 
     @Override
     public String toString() {
-        return "Image: " + this.name;
+        return "Image: " + this.imangeName;
     }
 }
