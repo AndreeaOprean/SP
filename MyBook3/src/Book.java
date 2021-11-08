@@ -27,8 +27,6 @@ public class Book {
         for (Element e:elements) {
             e.print();
         }
-
-
     }
 
 }
