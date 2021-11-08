@@ -6,7 +6,6 @@ public class Book {
     public List<Author> authors = new ArrayList<Author>();
     public List<Element> elements = new ArrayList<Element>();
 
-
     public Book(String title) {
         this.title = title;
     }
@@ -15,21 +14,7 @@ public class Book {
         this.authors.add(rpGheo);
     }
 
-    public void addContent(Section cap1) {
-        elements.add(cap1);
-    }
-
-    public void addContent(Paragraph paragraph) {
-        elements.add(paragraph);
-    }
-
-    public void addContent(Image image) {
-        elements.add(image);
-    }
-
-    public void addContent(Table table) {
-        elements.add(table);
-    }
+    public void addContent(Element e) {elements.add(e);}
 
     public void print() {
         System.out.println("Book: "+title);
