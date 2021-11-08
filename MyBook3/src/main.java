@@ -9,16 +9,9 @@ public class main {
         Section cap111 = new Section("Capitolul 1.1.1");
         Section cap1111 = new Section("Capitolul 1.1.1.1");
 
-        // interfata element si se implementeaza pentru ficare element de la section si pana la table
-        // cartea poate sa aibe mai multe sectiuni
-        // sectiunile pot sa aibe ami multe elementre dar paragraful nu
-
         noapteBuna.addContent(new Paragraph("Multumesc celor care..."));
         noapteBuna.addContent(cap1);
-        // paragraf + sectiune adaugate la carte
-        // interfata permite adaaugarea elementelor
-        // diferenta intre nodurile cu alte sectiuni si cu nodurile frunza (imagini, paragrafe, tabele - pot sa fie doar printate)
-        // https://sourcemaking.com/design_patterns/composite
+]
         cap1.addElement(new Paragraph("Moto capitol"));
         cap1.addElement(cap11);
         cap11.addElement(new Paragraph("Text from subchapter 1.1"));
