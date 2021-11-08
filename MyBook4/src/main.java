@@ -4,6 +4,7 @@ public class main {
         ImageProxy img1 = new ImageProxy("Pamela Anderson");
         ImageProxy img2 = new ImageProxy("Kim Kardashian");
         ImageProxy img3 = new ImageProxy("Kirby Griffin");
+
         Section playboyS1 = new Section("Front Cover");
         playboyS1.addElement(img1);
         Section playboyS2 = new Section("Summer Girls");
@@ -13,6 +14,7 @@ public class main {
         playboy.addContent(playboyS1);
         playboy.addContent(playboyS2);
         long endTime = System.currentTimeMillis();
+
         System.out.println("Creation of the content took " + (endTime -
                 startTime) + " milliseconds");
         startTime = System.currentTimeMillis();

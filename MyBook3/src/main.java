@@ -11,7 +11,7 @@ public class main {
 
         noapteBuna.addContent(new Paragraph("Multumesc celor care..."));
         noapteBuna.addContent(cap1);
-]
+
         cap1.addElement(new Paragraph("Moto capitol"));
         cap1.addElement(cap11);
         cap11.addElement(new Paragraph("Text from subchapter 1.1"));
