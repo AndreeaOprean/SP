@@ -20,3 +20,11 @@ https://github.com/AndreeaOprean/SP/tree/88e360538af790cfd45aa95e3737bfb0179027e
 https://github.com/AndreeaOprean/SP/tree/f9e13d3da70eca6b204cb8994b3ca8261fdab9c3
 
 - same as lab4
+
+# Feedback lab6:
+https://github.com/AndreeaOprean/SP/tree/524d40ea33991d3961ed2ca93d531b11c2cb3b68
+
+- on BookStatistics, the section and book have no usage, so the visit can be empty.
+- on GenerateToC, only the section are of interest, the table of content on a book is composed only by a list of chapters
+
+# Proposed grade: 9
