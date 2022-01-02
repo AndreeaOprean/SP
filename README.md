@@ -27,4 +27,4 @@ https://github.com/AndreeaOprean/SP/tree/524d40ea33991d3961ed2ca93d531b11c2cb3b6
 - on BookStatistics, the section and book have no usage, so the visit can be empty.
 - on GenerateToC, only the section are of interest, the table of content on a book is composed only by a list of chapters
 
-# Proposed grade: 9
+# Proposed grade: 9.5
